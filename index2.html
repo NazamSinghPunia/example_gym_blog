@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold's Gym</title>
+</head>
+<link rel="stylesheet" href="style1.css">
+<style>     
+/* css reset */
+    body{   
+        color: rgb(77, 159, 236);
+        margin: 0px;
+        padding: 0px;
+        background: url('photos/pexels-leon-ardho-1552242.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left{
+       
+        display: inline-block;
+        
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .left img{
+        width: 150px;
+    }
+    .mid{
+        display: block;
+        width: 1000px;
+        margin: 40px auto;
+       
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 42px;
+        display: inline-block;
+       
+    }
+    .navbar{
+        display: inline-block;
+        margin-left: 15%;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: rgb(36, 224, 224);
+        text-decoration: underline;
+        
+    }
+    .left div{
+        line-height: 19px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .btn{
+        margin: 0px 9px;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        border: 2px solid green;
+        margin: 170px;
+        padding: 4px 4px;
+        width: 33%;
+        border-radius: 10px;
+        top: 500px;
+        left: 50px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 15px;
+        border-radius: 20px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+        background-color: cornflowerblue;
+    }
+    .submenu2{
+    display: none;
+}
+    .hmenu{
+        display: none;
+    }
+    /* .navbar li:hover .hmenu{
+    display: block;
+    position: absolute;
+    background: rgb(248, 244, 244);
+    margin-left: 21px;
+    
+}
+.hmenu ul li{
+    display: block;
+    padding: 4px;
+    left: 2px;
+    margin: 2px;
+    margin-left: -40px;
+} */
+/* .hoverme:hover .submenu2{
+    display: block;
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -20px;
+    background-color: rgb(245, 238, 238);
+} */
+
+
+    </style>
+  <body>
+      <header class="header">
+         
+        <div class="left">
+            <img src="photos/logo.jpeg" alt="">
+            <div>Gold’s Gym</div>
+
+        </div>
+       
+        <div class="mid"> 
+            <ul class="navbar">
+                <li><a href="index.html" >Blog
+                    <!-- <div class="hmenu">
+                        <ul>
+                            <li>home1</li>
+                            <li class="hoverme" >home2
+                                <div class="submenu2">
+                                <ul>
+                                    <li>part1</li>
+                                    <li>part2</li>
+                                    <li>part3</li>
+                                    <li>part4</li>
+                                </ul>
+                            </div>
+                            </li>
+                            <li>home3</li>
+                            <li>home4</li>
+                        </ul>
+                       </div>
+                    </a></li> -->
+                <!-- <li><a href="#">About us</a></li> -->
+                <li><a href="gallery.html">Fitness Center</a></li>
+                <li><a href="index2.html">Contact us</a></li>
+            </ul>
+
+        </div>
+         
+            <div class="right">
+                <button class="btn">Call us Now</button><button class="btn">Email us</button>
+            </div>
+      </header>
+      <div class="container">
+          <h1>Join the best Gym of delhi now</h1>
+          <form action="noaction.php">
+            <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Name ">
+          </form>
+        </div>
+      <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your age ">
+          </form>
+      </div>
+      <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Gender ">
+          </form>
+      </div>
+      <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your locality ">
+          </form>
+      </div>
+      <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Phone No. ">
+          </form>
+      </div>
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your Email ">
+      </form>
+  </div>
+      <button class="btn">Submit </button>
+    </div>
+  </body>
+        
+</body>
+</html>
